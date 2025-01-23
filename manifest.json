@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Video Transcript Navigator",
+  "version": "1.0",
+  "description": "Search and navigate video transcripts easily.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon1.png",
+      "48": "icons/icon2.png",
+      "128": "icons/icon3.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon1.png",
+    "48": "icons/icon2.png",
+    "128": "icons/icon3.png"
+  }
+}
